@@ -1,0 +1,541 @@
+﻿Log file open, 08/11/16 17:06:02
+LogInit:Display: Running engine for game: FlexProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1498016855) SRandInit(-1498016854).
+LogInit: Using version manifest at CL 0 with build ID '7c48e37e-af59-471d-a33a-e5509b5ef975'
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074225
+LogInit: Version: 4.12.4-0+UE4
+LogInit: API Version: 0
+LogInit: Net Version: 0
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Aug  3 2016 13:12:31
+LogInit: Compiled with Visual C++: 19.00.23506.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine-FleX/UnrealEngine-FleX/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.11-22.06.02:160][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.11-22.06.02:160][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.11-22.06.02:226][  0]LogInit: Computer: DESKTOP-LAGTANL
+[2016.08.11-22.06.02:226][  0]LogInit: User: emman
+[2016.08.11-22.06.02:226][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.11-22.06.02:226][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2016.08.11-22.06.02:226][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.08.11-22.06.02:226][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.11-22.06.02:226][  0]LogMemory: Process Physical Memory: 190.65 MB used, 190.65 MB peak
+[2016.08.11-22.06.02:226][  0]LogMemory: Process Virtual Memory: 195.23 MB used, 195.23 MB peak
+[2016.08.11-22.06.02:226][  0]LogMemory: Physical Memory: 3481.68 MB used, 16282.52 MB total
+[2016.08.11-22.06.02:226][  0]LogMemory: Virtual Memory: 553.55 MB used, 134217728.00 MB total
+[2016.08.11-22.06.03:159][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.08.11-22.06.03:822][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.11-22.06.03:848][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2016.08.11-22.06.03:848][  0]LogD3D11RHI:       2018/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.08.11-22.06.03:857][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2016.08.11-22.06.03:857][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.08.11-22.06.03:859][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.11-22.06.03:859][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.08.11-22.06.03:859][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.11-22.06.03:863][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.11-22.06.03:863][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2016.08.11-22.06.03:863][  0]LogWindows: EnumDisplayDevices:
+[2016.08.11-22.06.03:864][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2016.08.11-22.06.03:864][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.08.11-22.06.03:865][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.08.11-22.06.03:865][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.08.11-22.06.03:865][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2016.08.11-22.06.03:865][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.08.11-22.06.03:865][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.08.11-22.06.03:865][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.11-22.06.03:881][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.11-22.06.03:893][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.08.11-22.06.03:893][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (../../../FlexProject/Intermediate/Shaders/WorkingDirectory/10388/).
+[2016.08.11-22.06.03:893][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/emman/AppData/Local/Temp/UnrealShaderWorkingDir/D5708291492D73D43C8C22843FEE2A00/'.
+[2016.08.11-22.06.03:893][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.11-22.06.05:346][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.11-22.06.05:353][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.11-22.06.05:361][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.11-22.06.05:368][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.11-22.06.05:375][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.11-22.06.05:381][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.11-22.06.05:388][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.11-22.06.05:395][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.11-22.06.05:402][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.11-22.06.05:409][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.11-22.06.05:415][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.11-22.06.05:421][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.11-22.06.05:428][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.11-22.06.05:429][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.11-22.06.05:476][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.11-22.06.05:481][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.11-22.06.05:481][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.11-22.06.05:699][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.11-22.06.06:292][  0]LogDerivedDataCache: Loaded boot cache 0.59s 54MB ../../../FlexProject/DerivedDataCache/Boot.ddc.
+[2016.08.11-22.06.06:292][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../FlexProject/DerivedDataCache/Boot.ddc
+[2016.08.11-22.06.06:292][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../FlexProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.11-22.06.06:292][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.11-22.06.06:292][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.11-22.06.06:292][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2016.08.11-22.06.06:303][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2016.08.11-22.06.06:303][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2016.08.11-22.06.06:303][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2016.08.11-22.06.08:968][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.11-22.06.08:969][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.11-22.06.09:320][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.11-22.06.09:320][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.11-22.06.09:320][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.11-22.06.09:921][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2016.08.11-22.06.09:955][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.032271 seconds
+[2016.08.11-22.06.09:960][  0]LogUObjectArray: 28946 objects as part of root set at end of initial load.
+[2016.08.11-22.06.09:960][  0]LogUObjectAllocator: 5899888 out of 0 bytes used by permanent object pool.
+[2016.08.11-22.06.09:960][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.11-22.06.09:964][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.11-22.06.11:025][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.11-22.06.11:025][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.11-22.06.19:728][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.11-22.06.20:043][  0]SourceControl: Info Source control is disabled
+[2016.08.11-22.06.20:172][  0]SourceControl: Info Source control is disabled
+[2016.08.11-22.06.20:181][  0]SourceControl: Info Source control is disabled
+[2016.08.11-22.06.20:190][  0]SourceControl: Info Source control is disabled
+[2016.08.11-22.06.20:570][  0]LogEngine: Initializing Engine...
+[2016.08.11-22.06.20:618][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.11-22.06.20:619][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.11-22.06.20:918][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.11-22.06.20:926][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.11-22.06.20:942][  0]LogInit: FAudioDevice initialized.
+[2016.08.11-22.06.20:966][  0]LogDerivedDataCache: Saved boot cache 0.02s 54MB ../../../FlexProject/DerivedDataCache/Boot.ddc.
+[2016.08.11-22.06.20:973][  0]LogInit: Texture streaming: Enabled
+[2016.08.11-22.06.21:028][  0]LogInit: Transaction tracking system initialized
+[2016.08.11-22.06.21:045][  0]BlueprintLog: New page: Editor Load
+[2016.08.11-22.06.21:160][  0]LocalizationService: Info Localization service is disabled
+[2016.08.11-22.06.21:491][  0]LogConsoleResponse:Display: 
+[2016.08.11-22.06.22:982][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.11-22.06.22:982][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.11-22.06.24:029][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/' took 0.01s
+[2016.08.11-22.06.24:444][  0]SourceControl: Info Source control is disabled
+[2016.08.11-22.06.24:444][  0]Cmd: MAP LOAD FILE="../../../FlexProject/Content/Maps/flexSoftTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.11-22.06.24:472][  0]LightingResults: New page: Lighting Build
+[2016.08.11-22.06.24:473][  0]MapCheck: New page: Map Check
+[2016.08.11-22.06.24:473][  0]LightingResults: New page: Lighting Build
+[2016.08.11-22.06.26:860][  0]LogAIModule: Creating AISystem for world flexSoftTestMap
+[2016.08.11-22.06.26:975][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.11-22.06.26:976][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.11-22.06.27:003][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.977ms to complete.
+[2016.08.11-22.06.27:003][  0]LogFileHelpers: Loading map 'flexSoftTestMap' took 2.559
+[2016.08.11-22.06.27:170][  0]LogCollectionManager: Loaded 0 collections in 0.000907 seconds
+[2016.08.11-22.06.27:207][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Saved/Collections/' took 0.01s
+[2016.08.11-22.06.27:207][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Developers/emman/Collections/' took 0.01s
+[2016.08.11-22.06.27:208][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Collections/' took 0.01s
+[2016.08.11-22.06.27:208][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.08.11-22.06.27:217][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2065 classes and 368 folders.
+[2016.08.11-22.06.27:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.11-22.06.27:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.11-22.06.27:222][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.08.11-22.06.27:226][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.08.11-22.06.28:172][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.08.11-22.06.28:176][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.08.11-22.06.28:221][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.11-22.06.28:228][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.11-22.06.28:255][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.08.11-22.06.28:255][  0]LogLoad: Full Startup: 27.20 seconds (BP compile: 0.09 seconds)
+[2016.08.11-22.06.28:255][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.08.11-22.06.28:272][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.11-22.06.28:272][  0]LogOcInput: OculusInput pre-init called
+[2016.08.11-22.06.28:291][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.08.11-22.06.28:607][  0]LogRenderer: Reallocating scene render targets to support 964x436 (Frame:2).
+[2016.08.11-22.06.28:720][  1]LogAssetRegistry: Asset discovery search completed in 18.8205 seconds
+[2016.08.11-22.06.28:720][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.08.11-22.06.28:720][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.08.11-22.06.40:729][378]LogAIModule: Creating AISystem for world Simu
+[2016.08.11-22.06.40:749][378]Cmd: MAP LOAD FILE="../../../FlexProject/Content/Maps/Simu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.11-22.06.40:749][378]LightingResults: New page: Lighting Build
+[2016.08.11-22.06.40:750][378]LoadErrors: New page: Loading map: Simu.umap
+[2016.08.11-22.06.40:762][378]MapCheck: New page: Map Check
+[2016.08.11-22.06.40:762][378]LightingResults: New page: Lighting Build
+[2016.08.11-22.06.40:806][378]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.11-22.06.40:832][378]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.11-22.06.40:863][378]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.288ms to complete.
+[2016.08.11-22.06.40:863][378]LogFileHelpers: Loading map 'Simu' took 0.115
+[2016.08.11-22.06.50:606][961]LogEditorViewport: Clicking on Actor (LMB): FlexActor (liver)
+[2016.08.11-22.07.18:925][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.11-22.07.18:925][649]PIE: New page: PIE session: Simu (Aug 11, 2016, 12:07:18 PM)
+[2016.08.11-22.07.18:925][649]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simu
+[2016.08.11-22.07.18:928][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002627s)
+[2016.08.11-22.07.18:930][649]LogAIModule: Creating AISystem for world Simu
+[2016.08.11-22.07.18:930][649]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2016.08.11-22.07.18:930][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simu.Simu to /Game/Maps/UEDPIE_0_Simu.Simu (0.004009s)
+[2016.08.11-22.07.18:941][649]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.11-22.07.18:953][649]LogInit: FAudioDevice initialized.
+[2016.08.11-22.07.19:219][649]LogBlueprint:Warning: Node '/Game/Blueprints/MyGame.MyGame:EdGraph_0.K2Node_FunctionEntry_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:220][649]LogBlueprint:Warning: Node '/Game/Blueprints/MyGame.MyGame:EdGraph_1.K2Node_FunctionEntry_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:253][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_1.Idle/Run.AnimGraphNode_BlendSpacePlayer_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:253][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_Root_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_4.JumpStart.AnimGraphNode_SequencePlayer_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_6.JumpLoop.AnimGraphNode_SequencePlayer_40' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_8.JumpEnd.AnimGraphNode_SequencePlayer_46' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_1.Idle/Run.AnimGraphNode_StateResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_4.JumpStart.AnimGraphNode_StateResult_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_6.JumpLoop.AnimGraphNode_StateResult_16' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_8.JumpEnd.AnimGraphNode_StateResult_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_3.Transition.AnimGraphNode_TransitionResult_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_5.Transition.AnimGraphNode_TransitionResult_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_7.Transition.AnimGraphNode_TransitionResult_18' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateEntryNode_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_4' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.EdGraphNode_Comment_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_Comment_22' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_Comment_25' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_3.Transition.K2Node_CallFunction_7960' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_5.Transition.K2Node_CallFunction_8008' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_7.Transition.K2Node_CallFunction_8428' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_CallFunction_11813' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_CallFunction_11990' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_CallFunction_2246' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_CallFunction_2731' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_CallFunction_846' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_Event_14' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_MacroInstance_40' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_3.Transition.K2Node_TransitionRuleGetter_44' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_7.Transition.K2Node_TransitionRuleGetter_53' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateNode_1.Idle/Run.K2Node_VariableGet_75' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_1.Transition.K2Node_VariableGet_120' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_5.Transition.K2Node_VariableGet_122' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_VariableSet_24' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:254][649]LogBlueprint:Warning: Node '/Game/Character/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint:EventGraph.K2Node_VariableSet_64' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:289][649]LogBlueprint:Warning: Node '/Game/Blueprints/MyGame.MyGame:UserConstructionScript.K2Node_FunctionEntry_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.07.19:313][649]LogWorld: Game class is 'MyGame_C'
+[2016.08.11-22.07.19:318][649]LogFlex:Display: Creating a FLEX system for...
+[2016.08.11-22.07.19:331][649]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simu.Simu up for play (max tick rate 60) at 2016.08.11-17.07.19
+[2016.08.11-22.07.19:331][649]LogWorld: Bringing up level for play took: 0.014151
+[2016.08.11-22.07.19:334][649]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2016.08.11-22.07.19:336][649]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simu 1.22
+[2016.08.11-22.09.26:655][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Simu" FILE="../../../FlexProject/Content/Maps/Simu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.08.11-22.09.26:698][213]LogSavePackage: Save=24.91ms
+[2016.08.11-22.09.26:698][213]LogSavePackage: Moving '../../../FlexProject/Saved/Simu6B07746C431DAF7CA2D584B878D92DFA.tmp' to '../../../FlexProject/Content/Maps/Simu.umap'
+[2016.08.11-22.09.26:700][213]LogSavePackage:Display: Finished SavePackage ../../../FlexProject/Content/Maps/Simu.umap
+[2016.08.11-22.09.28:813][335]LogAIModule: Creating AISystem for world flexSoftTestMap
+[2016.08.11-22.09.28:850][335]Cmd: MAP LOAD FILE="../../../FlexProject/Content/Maps/flexSoftTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.11-22.09.28:850][335]LightingResults: New page: Lighting Build
+[2016.08.11-22.09.28:852][335]LoadErrors: New page: Loading map: flexSoftTestMap.umap
+[2016.08.11-22.09.28:852][335]MapCheck: New page: Map Check
+[2016.08.11-22.09.28:852][335]LightingResults: New page: Lighting Build
+[2016.08.11-22.09.28:904][335]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.11-22.09.28:925][335]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.11-22.09.28:957][335]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.185ms to complete.
+[2016.08.11-22.09.28:957][335]LogFileHelpers: Loading map 'flexSoftTestMap' took 0.108
+[2016.08.11-22.09.30:154][406]LogEditorViewport: Clicking on Actor (LMB): FlexActor (flexRope3)
+[2016.08.11-22.09.40:657][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (flexBox33)
+[2016.08.11-22.09.41:939][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (flexBox34)
+[2016.08.11-22.09.45:750][323]LogEditorViewport: Clicking on Actor (LMB): FlexActor (flexRope3)
+[2016.08.11-22.10.28:659][888]LogEditorViewport: Clicking on Actor (LMB): FlexActor (flexBacon2)
+[2016.08.11-22.10.57:493][100]LogAIModule: Creating AISystem for world Simu
+[2016.08.11-22.10.57:506][100]Cmd: MAP LOAD FILE="../../../FlexProject/Content/Maps/Simu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.11-22.10.57:506][100]LightingResults: New page: Lighting Build
+[2016.08.11-22.10.57:507][100]LoadErrors: New page: Loading map: Simu.umap
+[2016.08.11-22.10.57:508][100]MapCheck: New page: Map Check
+[2016.08.11-22.10.57:508][100]LightingResults: New page: Lighting Build
+[2016.08.11-22.10.57:563][100]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.11-22.10.57:583][100]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.11-22.10.57:612][100]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.208ms to complete.
+[2016.08.11-22.10.57:612][100]LogFileHelpers: Loading map 'Simu' took 0.107
+[2016.08.11-22.11.02:029][359]LogActorFactory: Actor Factory created Cube
+[2016.08.11-22.11.03:359][437]LogActorFactory: Actor Factory created Cube
+[2016.08.11-22.11.05:102][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.08.11-22.11.05:644][571]LogEditorViewport: Clicking on Actor (LMB): FlexActor (liver)
+[2016.08.11-22.11.27:484][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Simu" FILE="../../../FlexProject/Content/Maps/Simu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.08.11-22.11.27:512][871]LogSavePackage: Save=19.26ms
+[2016.08.11-22.11.27:512][871]LogSavePackage: Moving '../../../FlexProject/Saved/SimuB7E3111B41E443E9050D189F24F4A91B.tmp' to '../../../FlexProject/Content/Maps/Simu.umap'
+[2016.08.11-22.11.27:513][871]LogSavePackage:Display: Finished SavePackage ../../../FlexProject/Content/Maps/Simu.umap
+[2016.08.11-22.11.27:533][871]LogFileHelpers: Saving map 'Simu' took 0.078
+[2016.08.11-22.11.28:727][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.11-22.11.28:727][942]PIE: New page: PIE session: Simu (Aug 11, 2016, 12:11:28 PM)
+[2016.08.11-22.11.28:727][942]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simu
+[2016.08.11-22.11.28:729][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001729s)
+[2016.08.11-22.11.28:731][942]LogAIModule: Creating AISystem for world Simu
+[2016.08.11-22.11.28:731][942]LogPlayLevel: PIE: World Init took: (0.002163s)
+[2016.08.11-22.11.28:732][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simu.Simu to /Game/Maps/UEDPIE_0_Simu.Simu (0.004427s)
+[2016.08.11-22.11.28:741][942]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.11-22.11.28:753][942]LogInit: FAudioDevice initialized.
+[2016.08.11-22.11.28:808][942]LogWorld: Game class is 'MyGame_C'
+[2016.08.11-22.11.28:810][942]LogFlex:Display: Creating a FLEX system for...
+[2016.08.11-22.11.28:821][942]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simu.Simu up for play (max tick rate 60) at 2016.08.11-17.11.28
+[2016.08.11-22.11.28:821][942]LogWorld: Bringing up level for play took: 0.011686
+[2016.08.11-22.11.28:823][942]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simu 0.707
+[2016.08.11-22.11.53:329][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.11-22.11.53:329][403]PIE: New page: PIE session: Simu (Aug 11, 2016, 12:11:53 PM)
+[2016.08.11-22.11.53:329][403]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Simu
+[2016.08.11-22.11.53:331][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001630s)
+[2016.08.11-22.11.53:331][403]LogAIModule: Creating AISystem for world Simu
+[2016.08.11-22.11.53:332][403]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2016.08.11-22.11.53:332][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Simu.Simu to /Game/Maps/UEDPIE_0_Simu.Simu (0.002706s)
+[2016.08.11-22.11.53:342][403]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.11-22.11.53:353][403]LogInit: FAudioDevice initialized.
+[2016.08.11-22.11.53:403][403]LogWorld: Game class is 'MyGame_C'
+[2016.08.11-22.11.53:406][403]LogFlex:Display: Creating a FLEX system for...
+[2016.08.11-22.11.53:412][403]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Simu.Simu up for play (max tick rate 60) at 2016.08.11-17.11.53
+[2016.08.11-22.11.53:412][403]LogWorld: Bringing up level for play took: 0.007437
+[2016.08.11-22.11.53:414][403]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Simu -0.702
+[2016.08.11-22.20.25:938][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Simu" FILE="../../../FlexProject/Content/Maps/Simu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.08.11-22.20.25:980][277]LogSavePackage: Save=30.38ms
+[2016.08.11-22.20.25:980][277]LogSavePackage: Moving '../../../FlexProject/Saved/Simu5DB50536411CDF3BB2DABA909B245C61.tmp' to '../../../FlexProject/Content/Maps/Simu.umap'
+[2016.08.11-22.20.25:982][277]LogSavePackage:Display: Finished SavePackage ../../../FlexProject/Content/Maps/Simu.umap
+[2016.08.11-22.20.26:001][277]LogFileHelpers: Saving map 'Simu' took 0.099
+[2016.08.11-22.20.28:036][373]Cmd: QUIT_EDITOR
+[2016.08.11-22.20.28:958][373]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.11-22.20.29:024][373]LogExit: Preparing to exit.
+[2016.08.11-22.20.30:279][373]LogExit: Editor shut down
+[2016.08.11-22.20.30:279][373]LogExit: Transaction tracking system shut down
+[2016.08.11-22.20.31:467][373]LogObj: Freed 0b from 0 cluster array pools.
+[2016.08.11-22.20.31:467][373]LogExit: Object subsystem successfully closed.
+[2016.08.11-22.20.31:672][373]LogD3D11RHI: Shutdown
+[2016.08.11-22.20.31:672][373]LogD3D11RHI: CleanupD3DDevice
+[2016.08.11-22.20.31:836][373]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.11-22.20.31:863][373]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (209)
+[2016.08.11-22.20.31:863][373]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (208)
+[2016.08.11-22.20.31:863][373]LogModuleManager: Shutting down and abandoning module CrashTracker (207)
+[2016.08.11-22.20.31:863][373]LogModuleManager: Shutting down and abandoning module SceneOutliner (206)
+[2016.08.11-22.20.31:863][373]LogModuleManager: Shutting down and abandoning module WidgetCarousel (205)
+[2016.08.11-22.20.31:863][373]LogModuleManager: Shutting down and abandoning module AddContentDialog (204)
+[2016.08.11-22.20.31:864][373]LogModuleManager: Shutting down and abandoning module GameplayTags (203)
+[2016.08.11-22.20.31:864][373]LogModuleManager: Shutting down and abandoning module EditorWidgets (202)
+[2016.08.11-22.20.31:864][373]LogModuleManager: Shutting down and abandoning module CollectionManager (201)
+[2016.08.11-22.20.31:872][373]LogModuleManager: Shutting down and abandoning module StatsViewer (200)
+[2016.08.11-22.20.31:882][373]LogModuleManager: Shutting down and abandoning module FoliageEdit (199)
+[2016.08.11-22.20.31:892][373]LogModuleManager: Shutting down and abandoning module LandscapeEditor (198)
+[2016.08.11-22.20.31:892][373]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (197)
+[2016.08.11-22.20.31:893][373]LogModuleManager: Shutting down and abandoning module ActorPickerMode (196)
+[2016.08.11-22.20.31:893][373]LogModuleManager: Shutting down and abandoning module GeometryMode (195)
+[2016.08.11-22.20.31:893][373]LogModuleManager: Shutting down and abandoning module TextureAlignMode (194)
+[2016.08.11-22.20.31:893][373]LogModuleManager: Shutting down and abandoning module BspMode (193)
+[2016.08.11-22.20.31:900][373]LogModuleManager: Shutting down and abandoning module HardwareSurvey (192)
+[2016.08.11-22.20.31:900][373]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (191)
+[2016.08.11-22.20.31:900][373]LogModuleManager: Shutting down and abandoning module SequenceRecorder (190)
+[2016.08.11-22.20.31:916][373]LogModuleManager: Shutting down and abandoning module AutomationWorker (189)
+[2016.08.11-22.20.31:916][373]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (188)
+[2016.08.11-22.20.31:923][373]LogModuleManager: Shutting down and abandoning module PlacementMode (187)
+[2016.08.11-22.20.31:928][373]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (186)
+[2016.08.11-22.20.31:950][373]LogModuleManager: Shutting down and abandoning module CharacterAI (185)
+[2016.08.11-22.20.31:950][373]LogModuleManager: Shutting down and abandoning module SmartSnapping (184)
+[2016.08.11-22.20.31:951][373]LogModuleManager: Shutting down and abandoning module SessionServices (183)
+[2016.08.11-22.20.31:951][373]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.08.11-22.20.31:951][373]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.08.11-22.20.31:968][373]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.08.11-22.20.31:968][373]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.08.11-22.20.31:968][373]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.08.11-22.20.31:968][373]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.08.11-22.20.31:978][373]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.08.11-22.20.31:978][373]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.08.11-22.20.32:495][373]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.08.11-22.20.32:495][373]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.08.11-22.20.32:495][373]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.08.11-22.20.32:495][373]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.08.11-22.20.32:495][373]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.08.11-22.20.32:495][373]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.08.11-22.20.32:574][373]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.08.11-22.20.32:580][373]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.08.11-22.20.32:586][373]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.08.11-22.20.32:601][373]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.08.11-22.20.32:601][373]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.08.11-22.20.32:607][373]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.08.11-22.20.32:607][373]LogModuleManager: Shutting down and abandoning module UserFeedback (162)
+[2016.08.11-22.20.32:607][373]LogModuleManager: Shutting down and abandoning module XmlParser (161)
+[2016.08.11-22.20.32:607][373]LogModuleManager: Shutting down and abandoning module Blutility (160)
+[2016.08.11-22.20.32:614][373]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (159)
+[2016.08.11-22.20.32:614][373]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (158)
+[2016.08.11-22.20.32:614][373]LogModuleManager: Shutting down and abandoning module InputBindingEditor (157)
+[2016.08.11-22.20.32:619][373]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (156)
+[2016.08.11-22.20.32:619][373]LogModuleManager: Shutting down and abandoning module SettingsEditor (155)
+[2016.08.11-22.20.32:630][373]LogModuleManager: Shutting down and abandoning module ProjectLauncher (154)
+[2016.08.11-22.20.32:635][373]LogModuleManager: Shutting down and abandoning module SessionFrontend (153)
+[2016.08.11-22.20.32:674][373]LogModuleManager: Shutting down and abandoning module ProfilerClient (152)
+[2016.08.11-22.20.32:675][373]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (151)
+[2016.08.11-22.20.32:675][373]LogModuleManager: Shutting down and abandoning module DeviceManager (150)
+[2016.08.11-22.20.32:735][373]LogModuleManager: Shutting down and abandoning module AutomationController (149)
+[2016.08.11-22.20.32:762][373]LogModuleManager: Shutting down and abandoning module AutomationWindow (148)
+[2016.08.11-22.20.32:790][373]LogModuleManager: Shutting down and abandoning module Layers (147)
+[2016.08.11-22.20.32:807][373]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (146)
+[2016.08.11-22.20.32:807][373]LogModuleManager: Shutting down and abandoning module DetailCustomizations (145)
+[2016.08.11-22.20.32:819][373]LogModuleManager: Shutting down and abandoning module PackagesDialog (144)
+[2016.08.11-22.20.32:819][373]LogModuleManager: Shutting down and abandoning module Persona (143)
+[2016.08.11-22.20.32:846][373]LogModuleManager: Shutting down and abandoning module Kismet (142)
+[2016.08.11-22.20.32:846][373]LogModuleManager: Shutting down and abandoning module GraphEditor (141)
+[2016.08.11-22.20.32:847][373]LogModuleManager: Shutting down and abandoning module ClassViewer (140)
+[2016.08.11-22.20.32:847][373]LogModuleManager: Shutting down and abandoning module Toolbox (139)
+[2016.08.11-22.20.32:855][373]LogModuleManager: Shutting down and abandoning module ModuleUI (138)
+[2016.08.11-22.20.32:855][373]LogModuleManager: Shutting down and abandoning module MovieSceneTools (137)
+[2016.08.11-22.20.32:867][373]LogModuleManager: Shutting down and abandoning module OutputLog (136)
+[2016.08.11-22.20.32:877][373]LogModuleManager: Shutting down and abandoning module GammaUI (135)
+[2016.08.11-22.20.32:877][373]LogModuleManager: Shutting down and abandoning module Documentation (134)
+[2016.08.11-22.20.32:877][373]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (133)
+[2016.08.11-22.20.32:877][373]LogModuleManager: Shutting down and abandoning module AnalyticsET (132)
+[2016.08.11-22.20.32:877][373]LogModuleManager: Shutting down and abandoning module Analytics (131)
+[2016.08.11-22.20.32:877][373]LogModuleManager: Shutting down and abandoning module PortalServices (130)
+[2016.08.11-22.20.32:877][373]LogModuleManager: Shutting down and abandoning module PortalRpc (129)
+[2016.08.11-22.20.32:877][373]LogModuleManager: Shutting down and abandoning module MessagingRpc (128)
+[2016.08.11-22.20.32:877][373]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.08.11-22.20.32:877][373]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.08.11-22.20.32:883][373]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.08.11-22.20.32:897][373]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.08.11-22.20.33:167][373]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.08.11-22.20.33:179][373]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.08.11-22.20.33:179][373]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.08.11-22.20.33:179][373]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.08.11-22.20.33:179][373]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.08.11-22.20.33:179][373]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.08.11-22.20.33:179][373]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.08.11-22.20.33:179][373]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (116)
+[2016.08.11-22.20.33:187][373]LogModuleManager: Shutting down and abandoning module CableComponent (115)
+[2016.08.11-22.20.33:187][373]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (114)
+[2016.08.11-22.20.33:187][373]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (113)
+[2016.08.11-22.20.33:200][373]LogModuleManager: Shutting down and abandoning module HTML5Networking (112)
+[2016.08.11-22.20.33:200][373]LogModuleManager: Shutting down and abandoning module SuperSearch (111)
+[2016.08.11-22.20.33:200][373]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (110)
+[2016.08.11-22.20.33:200][373]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.08.11-22.20.33:200][373]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.08.11-22.20.33:211][373]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.08.11-22.20.33:211][373]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.08.11-22.20.33:223][373]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.08.11-22.20.33:223][373]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.08.11-22.20.33:223][373]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.08.11-22.20.33:235][373]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.08.11-22.20.33:255][373]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.08.11-22.20.33:260][373]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.08.11-22.20.33:268][373]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.08.11-22.20.33:268][373]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.08.11-22.20.33:275][373]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.08.11-22.20.33:275][373]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.08.11-22.20.33:284][373]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (95)
+[2016.08.11-22.20.33:297][373]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.08.11-22.20.33:305][373]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.08.11-22.20.33:314][373]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.08.11-22.20.33:322][373]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2016.08.11-22.20.33:323][373]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2016.08.11-22.20.33:341][373]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2016.08.11-22.20.33:441][373]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (88)
+[2016.08.11-22.20.33:441][373]LogModuleManager: Shutting down and abandoning module Paper2D (87)
+[2016.08.11-22.20.33:487][373]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (86)
+[2016.08.11-22.20.33:491][373]LogModuleManager: Shutting down and abandoning module Media (85)
+[2016.08.11-22.20.33:491][373]LogModuleManager: Shutting down and abandoning module WmfMedia (84)
+[2016.08.11-22.20.33:499][373]LogModuleManager: Shutting down and abandoning module MediaAssets (83)
+[2016.08.11-22.20.33:499][373]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (82)
+[2016.08.11-22.20.33:499][373]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (81)
+[2016.08.11-22.20.33:499][373]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.08.11-22.20.33:499][373]LogModuleManager: Shutting down and abandoning module VREditor (79)
+[2016.08.11-22.20.33:499][373]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.08.11-22.20.33:499][373]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.08.11-22.20.33:499][373]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.08.11-22.20.33:525][373]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.08.11-22.20.33:525][373]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.08.11-22.20.33:538][373]LogModuleManager: Shutting down and abandoning module Sequencer (73)
+[2016.08.11-22.20.33:558][373]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (72)
+[2016.08.11-22.20.33:558][373]LogModuleManager: Shutting down and abandoning module MessageLog (71)
+[2016.08.11-22.20.33:558][373]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.08.11-22.20.33:574][373]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.08.11-22.20.33:605][373]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.08.11-22.20.33:614][373]LogModuleManager: Shutting down and abandoning module SlateReflector (67)
+[2016.08.11-22.20.33:641][373]LogModuleManager: Shutting down and abandoning module Slate (66)
+[2016.08.11-22.20.33:642][373]LogModuleManager: Shutting down and abandoning module EditorStyle (65)
+[2016.08.11-22.20.33:643][373]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.08.11-22.20.33:643][373]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.08.11-22.20.33:643][373]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.08.11-22.20.33:643][373]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.08.11-22.20.33:643][373]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.08.11-22.20.33:643][373]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (58)
+[2016.08.11-22.20.33:644][373]LogModuleManager: Shutting down and abandoning module AssetRegistry (57)
+[2016.08.11-22.20.33:818][373]LogModuleManager: Shutting down and abandoning module KismetCompiler (56)
+[2016.08.11-22.20.33:818][373]LogModuleManager: Shutting down and abandoning module PhysXFormats (55)
+[2016.08.11-22.20.33:818][373]LogModuleManager: Shutting down and abandoning module MeshUtilities (54)
+[2016.08.11-22.20.33:818][373]LogModuleManager: Shutting down and abandoning module DerivedDataCache (53)
+[2016.08.11-22.20.33:903][373]LogDerivedDataCache: Shutdown
+[2016.08.11-22.20.33:903][373]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (52)
+[2016.08.11-22.20.33:903][373]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (51)
+[2016.08.11-22.20.33:903][373]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2016.08.11-22.20.33:903][373]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (49)
+[2016.08.11-22.20.33:903][373]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2016.08.11-22.20.33:903][373]LogModuleManager: Shutting down and abandoning module ImageWrapper (47)
+[2016.08.11-22.20.33:903][373]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (46)
+[2016.08.11-22.20.33:903][373]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (45)
+[2016.08.11-22.20.33:903][373]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2016.08.11-22.20.33:903][373]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (43)
+[2016.08.11-22.20.33:903][373]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (42)
+[2016.08.11-22.20.33:903][373]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (41)
+[2016.08.11-22.20.33:903][373]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (40)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (39)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module Messaging (38)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (37)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (36)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (34)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (27)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (25)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (24)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.08.11-22.20.33:904][373]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.08.11-22.20.33:920][373]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.08.11-22.20.36:924][373]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.08.11-22.20.36:955][373]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.11-22.20.36:955][373]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.11-22.20.36:965][373]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.11-22.20.36:965][373]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.11-22.20.36:965][373]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.11-22.20.36:976][373]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.11-22.20.36:984][373]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.11-22.20.36:984][373]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.11-22.20.36:984][373]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.11-22.20.36:984][373]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.11-22.20.36:984][373]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.11-22.20.36:984][373]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.11-22.20.36:995][373]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.11-22.20.36:995][373]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.11-22.20.36:999][373]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.11-22.20.37:030][373]LogExit: Exiting.
+[2016.08.11-22.20.37:032][373]Log file closed, 08/11/16 17:20:37

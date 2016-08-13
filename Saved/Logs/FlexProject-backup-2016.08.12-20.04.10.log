@@ -1,0 +1,507 @@
+﻿Log file open, 08/11/16 17:33:16
+LogInit:Display: Running engine for game: FlexProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1654240772) SRandInit(-1654240771).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.068173
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.11-22.33.16:679][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.11-22.33.16:679][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.11-22.33.16:685][  0]LogInit: Computer: DESKTOP-LAGTANL
+[2016.08.11-22.33.16:685][  0]LogInit: User: emman
+[2016.08.11-22.33.16:685][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.11-22.33.16:685][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2016.08.11-22.33.16:685][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.08.11-22.33.16:685][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.11-22.33.16:685][  0]LogMemory: Process Physical Memory: 313.00 MB used, 313.00 MB peak
+[2016.08.11-22.33.16:685][  0]LogMemory: Process Virtual Memory: 314.92 MB used, 314.92 MB peak
+[2016.08.11-22.33.16:685][  0]LogMemory: Physical Memory: 4413.96 MB used, 16282.52 MB total
+[2016.08.11-22.33.16:685][  0]LogMemory: Virtual Memory: 653.49 MB used, 134217728.00 MB total
+[2016.08.11-22.33.17:096][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.08.11-22.33.17:490][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.11-22.33.17:901][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2016.08.11-22.33.17:901][  0]LogD3D11RHI:       2018MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 1 output[s]
+[2016.08.11-22.33.17:907][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2016.08.11-22.33.17:907][  0]LogD3D11RHI:       128MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 0 output[s]
+[2016.08.11-22.33.17:908][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.11-22.33.17:908][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 0 output[s]
+[2016.08.11-22.33.17:908][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.11-22.33.17:912][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.11-22.33.17:912][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2016.08.11-22.33.17:912][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.08.11-22.33.17:912][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.08.11-22.33.17:912][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.11-22.33.17:927][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.11-22.33.17:939][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Intermediate/Shaders/WorkingDirectory/11648/).
+[2016.08.11-22.33.17:939][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/emman/AppData/Local/Temp/UnrealShaderWorkingDir/BC049FD5448FFF7B60979DBF0E85A852/'.
+[2016.08.11-22.33.17:939][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.11-22.33.18:793][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.11-22.33.18:797][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.11-22.33.18:801][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.11-22.33.18:805][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.11-22.33.18:808][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.11-22.33.18:812][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.11-22.33.18:815][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.11-22.33.18:818][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.11-22.33.18:822][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.11-22.33.18:825][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.11-22.33.18:828][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.11-22.33.18:834][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.11-22.33.18:834][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.11-22.33.18:836][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.11-22.33.18:852][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.11-22.33.18:855][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.11-22.33.18:858][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.11-22.33.18:861][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.11-22.33.18:864][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.11-22.33.18:864][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.11-22.33.18:925][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.11-22.33.18:970][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/emman/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.08.11-22.33.18:970][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/emman/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.08.11-22.33.18:970][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.11-22.33.18:970][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.11-22.33.18:970][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.11-22.33.18:970][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.11-22.33.18:985][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.11-22.33.18:996][  0]LogDerivedDataCache: Using Local data cache path C:/Users/emman/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.11-22.33.19:132][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.11-22.33.19:132][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.11-22.33.19:159][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.08.11-22.33.19:269][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.11-22.33.19:269][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.11-22.33.19:269][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.11-22.33.19:470][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.08.11-22.33.19:470][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.08.11-22.33.19:470][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.11-22.33.19:474][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.11-22.33.19:541][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.11-22.33.19:541][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.11-22.33.19:623][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.11-22.33.19:623][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.11-22.33.19:623][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.11-22.33.19:623][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.11-22.33.19:623][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.11-22.33.19:623][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.11-22.33.20:090][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.08.11-22.33.20:095][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.11-22.33.20:193][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2016.08.11-22.33.20:305][  0]SourceControl: Info Source control is disabled
+[2016.08.11-22.33.20:318][  0]SourceControl: Info Source control is disabled
+[2016.08.11-22.33.20:323][  0]SourceControl: Info Source control is disabled
+[2016.08.11-22.33.20:328][  0]SourceControl: Info Source control is disabled
+[2016.08.11-22.33.20:403][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.08.11-22.33.20:471][  0]LogEngine: Initializing Engine...
+[2016.08.11-22.33.20:598][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.11-22.33.20:603][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.11-22.33.20:618][  0]LogInit: FAudioDevice initialized.
+[2016.08.11-22.33.20:640][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/emman/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.08.11-22.33.20:643][  0]LogInit: Texture streaming: Enabled
+[2016.08.11-22.33.20:664][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.11-22.33.20:688][  0]LogInit: Transaction tracking system initialized
+[2016.08.11-22.33.20:707][  0]BlueprintLog: New page: Editor Load
+[2016.08.11-22.33.20:759][  0]LocalizationService: Info Localization service is disabled
+[2016.08.11-22.33.20:813][  0]LogConsoleResponse:Display: 
+[2016.08.11-22.33.20:906][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.11-22.33.20:907][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.11-22.33.20:907][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.11-22.33.20:942][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/' took 0.01s
+[2016.08.11-22.33.20:942][  0]SourceControl: Info Source control is disabled
+[2016.08.11-22.33.20:942][  0]Cmd: MAP LOAD FILE="../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Maps/flexSoftTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.11-22.33.20:942][  0]LightingResults: New page: Lighting Build
+[2016.08.11-22.33.20:944][  0]MapCheck: New page: Map Check
+[2016.08.11-22.33.20:944][  0]LightingResults: New page: Lighting Build
+[2016.08.11-22.33.20:952][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Maps/flexSoftTestMap.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:064][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:064][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:064][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:064][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:064][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBlueMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:065][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexGlossyMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:066][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexGreenMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:066][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexFrayTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:067][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexPinkMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:068][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSandMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:069][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexWhiteMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:072][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:072][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:072][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:072][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:073][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBox30.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:073][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexRigidContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:074][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:074][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:074][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:074][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:074][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexRope.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:074][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:074][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:074][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:074][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:075][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:075][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:075][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:075][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:075][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:075][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:076][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:076][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:076][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexTorus.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:076][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:076][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:076][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:076][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:076][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:076][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:076][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:076][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:077][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:077][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:077][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:077][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:077][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:077][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:078][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:078][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:078][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:078][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexSoftContainer.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:079][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexBacon.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:080][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:080][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:080][  0]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.21:080][  0]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/TestPackages/Flex/flexOctopus.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.21:222][  0]LogAIModule: Creating AISystem for world flexSoftTestMap
+[2016.08.11-22.33.21:228][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.11-22.33.21:228][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.11-22.33.21:251][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 22.757ms to complete.
+[2016.08.11-22.33.21:251][  0]LogFileHelpers: Loading map 'flexSoftTestMap' took 0.309
+[2016.08.11-22.33.21:359][  0]LogCollectionManager: Loaded 0 collections in 0.001114 seconds
+[2016.08.11-22.33.21:398][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Saved/Collections/' took 0.01s
+[2016.08.11-22.33.21:398][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Developers/emman/Collections/' took 0.01s
+[2016.08.11-22.33.21:398][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Collections/' took 0.01s
+[2016.08.11-22.33.21:398][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.08.11-22.33.21:406][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 1994 classes and 349 folders.
+[2016.08.11-22.33.21:409][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.11-22.33.21:409][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.11-22.33.21:409][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.08.11-22.33.21:412][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.08.11-22.33.21:417][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.08.11-22.33.21:447][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.08.11-22.33.21:450][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.08.11-22.33.21:502][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.11-22.33.21:509][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.11-22.33.21:535][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.08.11-22.33.21:535][  0]LogLoad: Full Startup: 5.42 seconds (BP compile: 0.03 seconds)
+[2016.08.11-22.33.21:535][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.08.11-22.33.21:535][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.08.11-22.33.21:553][  0]LogOcInput: OculusInput pre-init called
+[2016.08.11-22.33.21:594][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.11-22.33.21:735][  0]LogRenderer: Reallocating scene render targets to support 904x436 (Frame:2).
+[2016.08.11-22.33.21:804][  1]LogAssetRegistry: Asset discovery search completed in 1.6328 seconds
+[2016.08.11-22.33.21:804][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.11-22.33.21:804][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2016.08.11-22.33.35:591][791]Cmd: TRANSACTION UNDO
+[2016.08.11-22.33.35:591][791]LogEditorTransaction: Undo Create Actors
+[2016.08.11-22.33.35:612][791]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/flexSoftTestMap.flexSoftTestMap:PersistentLevel.ModelComponent_179' invalid (1037 verts, 0 indices).
+[2016.08.11-22.33.37:793][906]Cmd: TRANSACTION UNDO
+[2016.08.11-22.33.37:793][906]LogEditorTransaction: Undo Move Actors
+[2016.08.11-22.33.51:189][470]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/flexSoftTestMap.flexSoftTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/flexSoftTestMap.flexSoftTestMap:PersistentLevel.flexSoftTestMap' with GeneratedClass '/Game/Maps/flexSoftTestMap.flexSoftTestMap_C' with ClassGeneratedBy '/Game/Maps/flexSoftTestMap.flexSoftTestMap:PersistentLevel.flexSoftTestMap'
+[2016.08.11-22.33.51:189][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.11-22.33.51:190][470]PIE: New page: PIE session: flexSoftTestMap (Aug 11, 2016, 12:33:51 PM)
+[2016.08.11-22.33.51:190][470]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_flexSoftTestMap
+[2016.08.11-22.33.51:218][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027641s)
+[2016.08.11-22.33.51:219][470]LogAIModule: Creating AISystem for world flexSoftTestMap
+[2016.08.11-22.33.51:219][470]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2016.08.11-22.33.51:219][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/flexSoftTestMap.flexSoftTestMap to /Game/Maps/UEDPIE_0_flexSoftTestMap.flexSoftTestMap (0.028919s)
+[2016.08.11-22.33.51:236][470]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.11-22.33.51:244][470]LogInit: FAudioDevice initialized.
+[2016.08.11-22.33.51:287][470]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.51:287][470]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.51:287][470]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.51:287][470]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.51:288][470]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.51:288][470]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.51:288][470]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.51:288][470]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.51:289][470]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.51:289][470]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.51:289][470]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.51:289][470]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.51:289][470]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.51:289][470]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.51:289][470]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.51:289][470]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.51:289][470]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.51:289][470]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.51:289][470]LogLinker:Warning: Asset '../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.11-22.33.51:289][470]LogLinker:Warning: Unable to load package (../../../../../UnrealEngine-FleX/UnrealEngine-FleX/FlexProject/Content/Blueprints/MyCharacter.uasset) PackageVersion 504, MaxExpected 498 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.08.11-22.33.51:290][470]LogBlueprint:Warning: Node '/Game/Blueprints/MyGame.MyGame:EdGraph_16.K2Node_FunctionEntry_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.33.51:291][470]LogBlueprint:Warning: Node '/Game/Blueprints/MyGame.MyGame:EdGraph_18.K2Node_FunctionEntry_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.33.51:292][470]LogBlueprint:Warning: Node '/Game/Blueprints/MyGame.MyGame:UserConstructionScript.K2Node_FunctionEntry_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.08.11-22.33.51:292][470]LogWorld: Game class is 'MyGame_C'
+[2016.08.11-22.33.51:296][470]LogWorld: Bringing World /Game/Maps/UEDPIE_0_flexSoftTestMap.flexSoftTestMap up for play (max tick rate 60) at 2016.08.11-17.33.51
+[2016.08.11-22.33.51:296][470]LogWorld: Bringing up level for play took: 0.002215
+[2016.08.11-22.33.51:299][470]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 9 classes and 0 folders.
+[2016.08.11-22.33.51:299][470]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_flexSoftTestMap -0.817
+[2016.08.11-22.33.51:299][470]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/flexSoftTestMap.flexSoftTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/flexSoftTestMap.flexSoftTestMap:PersistentLevel.flexSoftTestMap' with GeneratedClass '/Game/Maps/flexSoftTestMap.flexSoftTestMap_C' with ClassGeneratedBy '/Game/Maps/flexSoftTestMap.flexSoftTestMap:PersistentLevel.flexSoftTestMap'
+[2016.08.11-22.33.56:461][778]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/flexSoftTestMap.flexSoftTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/flexSoftTestMap.flexSoftTestMap:PersistentLevel.flexSoftTestMap' with GeneratedClass '/Game/Maps/flexSoftTestMap.flexSoftTestMap_C' with ClassGeneratedBy '/Game/Maps/flexSoftTestMap.flexSoftTestMap:PersistentLevel.flexSoftTestMap'
+[2016.08.11-22.33.56:494][778]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/flexSoftTestMap.flexSoftTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/flexSoftTestMap.flexSoftTestMap:PersistentLevel.flexSoftTestMap' with GeneratedClass '/Game/Maps/flexSoftTestMap.flexSoftTestMap_C' with ClassGeneratedBy '/Game/Maps/flexSoftTestMap.flexSoftTestMap:PersistentLevel.flexSoftTestMap'
+[2016.08.11-22.34.07:606][439]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.11-22.34.07:786][440]Cmd: QUIT_EDITOR
+[2016.08.11-22.34.08:705][440]LogExit: Preparing to exit.
+[2016.08.11-22.34.09:129][440]LogExit: Editor shut down
+[2016.08.11-22.34.09:130][440]LogExit: Transaction tracking system shut down
+[2016.08.11-22.34.09:226][440]LogObj: Freed 0b from 0 cluster array pools.
+[2016.08.11-22.34.09:226][440]LogExit: Object subsystem successfully closed.
+[2016.08.11-22.34.09:233][440]LogD3D11RHI: Shutdown
+[2016.08.11-22.34.09:233][440]LogD3D11RHI: CleanupD3DDevice
+[2016.08.11-22.34.09:338][440]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.11-22.34.09:521][440]LogDerivedDataCache: Shutdown
+[2016.08.11-22.34.09:521][440]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (207)
+[2016.08.11-22.34.09:521][440]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (206)
+[2016.08.11-22.34.09:521][440]LogModuleManager: Shutting down and abandoning module CrashTracker (205)
+[2016.08.11-22.34.09:521][440]LogModuleManager: Shutting down and abandoning module SceneOutliner (204)
+[2016.08.11-22.34.09:522][440]LogModuleManager: Shutting down and abandoning module SuperSearch (203)
+[2016.08.11-22.34.09:522][440]LogModuleManager: Shutting down and abandoning module WidgetCarousel (202)
+[2016.08.11-22.34.09:522][440]LogModuleManager: Shutting down and abandoning module AddContentDialog (201)
+[2016.08.11-22.34.09:522][440]LogModuleManager: Shutting down and abandoning module GameplayTags (200)
+[2016.08.11-22.34.09:522][440]LogModuleManager: Shutting down and abandoning module EditorWidgets (199)
+[2016.08.11-22.34.09:522][440]LogModuleManager: Shutting down and abandoning module CollectionManager (198)
+[2016.08.11-22.34.09:522][440]LogModuleManager: Shutting down and abandoning module StatsViewer (197)
+[2016.08.11-22.34.09:522][440]LogModuleManager: Shutting down and abandoning module FoliageEdit (196)
+[2016.08.11-22.34.09:522][440]LogModuleManager: Shutting down and abandoning module LandscapeEditor (195)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module ActorPickerMode (194)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module GeometryMode (193)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module TextureAlignMode (192)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module BspMode (191)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module PlacementMode (190)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module AutomationWorker (189)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module CharacterAI (188)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module SmartSnapping (187)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module ViewportSnapping (186)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module LogVisualizer (185)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (184)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module IntroTutorials (183)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (182)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (181)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (180)
+[2016.08.11-22.34.09:523][440]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (179)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (178)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (177)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (176)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module MergeActors (175)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module SizeMap (174)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module TreeMap (173)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module ReferenceViewer (172)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module LocalizationService (171)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (170)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module HardwareTargeting (169)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (168)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module UndoHistory (167)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module UserFeedback (166)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module XmlParser (165)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module Blutility (164)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (163)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (162)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module InputBindingEditor (161)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (160)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module SettingsEditor (159)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module ProjectLauncher (158)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module SessionFrontend (157)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module ProfilerClient (156)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (155)
+[2016.08.11-22.34.09:798][440]LogModuleManager: Shutting down and abandoning module DeviceManager (154)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module AutomationController (153)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module AutomationWindow (152)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module Layers (151)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (150)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module DetailCustomizations (149)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module PackagesDialog (148)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module Persona (147)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module Kismet (146)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module GraphEditor (145)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module ClassViewer (144)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module Toolbox (143)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module ModuleUI (142)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module MovieSceneTools (141)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module OutputLog (140)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module GammaUI (139)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module Documentation (138)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (137)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module AnalyticsET (136)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module Analytics (135)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module PortalServices (134)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module PortalRpc (133)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module MessagingRpc (132)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module GameplayDebugger (130)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module AIModule (129)
+[2016.08.11-22.34.09:841][440]LogModuleManager: Shutting down and abandoning module ProfilerService (128)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module TaskGraph (127)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module SubstanceEditor (126)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module SlateRemote (125)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module SteamVRController (124)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module SteamVR (123)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (122)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module OculusLibrary (121)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module OculusInput (120)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (119)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module CableComponent (118)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (117)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (116)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module HTML5Networking (115)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.08.11-22.34.09:980][440]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.08.11-22.34.09:981][440]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.08.11-22.34.09:981][440]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.08.11-22.34.09:981][440]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (97)
+[2016.08.11-22.34.09:981][440]LogModuleManager: Shutting down and abandoning module AssetRegistry (96)
+[2016.08.11-22.34.10:132][440]LogModuleManager: Shutting down and abandoning module ContentBrowser (95)
+[2016.08.11-22.34.10:132][440]LogModuleManager: Shutting down and abandoning module Paper2DEditor (94)
+[2016.08.11-22.34.10:132][440]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
+[2016.08.11-22.34.10:233][440]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
+[2016.08.11-22.34.10:233][440]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.08.11-22.34.10:233][440]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.08.11-22.34.10:233][440]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.08.11-22.34.10:233][440]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.08.11-22.34.10:233][440]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.08.11-22.34.10:233][440]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.08.11-22.34.10:233][440]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.08.11-22.34.10:233][440]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.08.11-22.34.10:233][440]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.08.11-22.34.10:233][440]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.08.11-22.34.10:233][440]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.08.11-22.34.10:234][440]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.08.11-22.34.10:235][440]LogDerivedDataCache: Shutdown
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.08.11-22.34.10:235][440]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.08.11-22.34.10:236][440]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.08.11-22.34.12:238][440]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.08.11-22.34.12:238][440]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.08.11-22.34.12:238][440]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.11-22.34.12:238][440]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.11-22.34.12:239][440]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.11-22.34.12:239][440]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.11-22.34.12:239][440]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.11-22.34.12:239][440]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.11-22.34.12:239][440]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.11-22.34.12:239][440]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.11-22.34.12:239][440]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.11-22.34.12:239][440]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.11-22.34.12:239][440]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.11-22.34.12:239][440]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.11-22.34.12:239][440]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.11-22.34.12:239][440]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.11-22.34.12:239][440]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.11-22.34.12:241][440]LogExit: Exiting.
+[2016.08.11-22.34.12:242][440]Log file closed, 08/11/16 17:34:12
