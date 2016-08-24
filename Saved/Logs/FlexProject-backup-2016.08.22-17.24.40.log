@@ -1,0 +1,33 @@
+﻿Log file open, 08/22/16 17:24:26
+LogInit:Display: Running engine for game: FlexProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1864956950) SRandInit(-1864956949).
+LogInit: Using version manifest at CL 0 with build ID '7c48e37e-af59-471d-a33a-e5509b5ef975'
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.071550
+LogInit:Warning: Incompatible or missing module: UE4Editor-FlexProject.dll
+LogInit:Warning: Incompatible or missing module: UE4Editor-VrpnPlugin.dll
+Running D:/UnrealEngine-FleX/UnrealEngine-FleX/Engine/Binaries/DotNET/UnrealBuildTool.exe FlexProject Development Win64 -editorrecompile -progress -noubtmakefiles -NoHotReloadFromIDE
+Messages while compiling D:\UnrealEngine-FleX\UnrealEngine-FleX\Engine\Intermediate\Build\BuildRules\UE4Rules.dll:
+d:\UnrealEngine-FleX\UnrealEngine-FleX\Engine\Plugins\Experimental\Wiimote\Source\Wiimote\Wiimote.Build.cs(11,48) : error CS0619: 'UnrealBuildTool.RulesCompiler.GetModuleFilename(string)' is obsolete: 'GetModuleFilename is deprecated, use the ModuleDirectory property on any ModuleRules instead to get a path to your module.'
+ERROR: UnrealBuildTool encountered an error while compiling source files
+LogInit:Warning: Still incompatible or missing module: UE4Editor-FlexProject.dll
+LogInit:Warning: Still incompatible or missing module: UE4Editor-VrpnPlugin.dll
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+LogModuleManager: Shutting down and abandoning module Landscape (12)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+LogModuleManager: Shutting down and abandoning module Renderer (7)
+LogModuleManager: Shutting down and abandoning module Engine (6)
+LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+LogModuleManager: Shutting down and abandoning module PakFile (1)
+LogExit: Exiting.
+Log file closed, 08/22/16 17:24:38

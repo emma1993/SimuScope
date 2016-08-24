@@ -1,0 +1,22 @@
+{
+    "FileVersion" : 1,
+	
+	"FriendlyName" : "Vrpn Plugin",
+	"Version" : 2,
+	"VersionName" : "0.2.0",
+	"CreatedBy" : "VRLab Reutlingen",
+	"CreatedByURL" : "http://vrlab.reutlingen-university.de",
+	"EngineVersion" : "4.10+",
+	"Description" : "Plugin for VRPN.",
+	"Category" : "Input.Controller",
+	
+    "Modules" :
+	[
+		{
+			"Name" : "VrpnPlugin",
+			"Type" : "Runtime",
+			"WhitelistPlatforms" : [ "Win64" ]
+		}
+	],
+	"CanContainContent" : false
+}

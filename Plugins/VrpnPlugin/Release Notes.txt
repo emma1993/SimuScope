@@ -1,0 +1,10 @@
+0.2.0
+
+- Upgrade to Unreal Engine 4.10
+- Upgrade to VS2015 (including external VRPN lib)
+- improve blueprint variable/event names
+- fix small bug
+
+0.1.0
+
+First Release
